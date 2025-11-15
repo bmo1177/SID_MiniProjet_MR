@@ -9,7 +9,7 @@ public class DatabaseConnection {
     // Production configuration
     private static final String DB_URL = "jdbc:mysql://localhost:3306/gestion_scolarite";
     private static final String DB_USER = "root";
-    private static final String DB_PASSWORD = "123456";
+    private static final String DB_PASSWORD = ""; //Most cases, MySQL does not have a password for root 
     private static final String DB_DRIVER = "com.mysql.cj.jdbc.Driver";
     
     private DatabaseConnection() {
