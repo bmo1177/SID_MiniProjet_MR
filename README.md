@@ -66,49 +66,130 @@ Ce projet implémente un système complet de gestion scolaire avec une interface
 
 ---
 
-## 🖥️ Interface Utilisateur
+## 🖥️ Interface Utilisateur - Galerie Complète
 
-### 🔐 **Écran de Connexion**
+### 🔐 **1. Mode Test et Connexion**
+
+#### **Écran de Démarrage - Mode Test**
+![Test Mode](screenshots/Screenshot%202025-11-15%20150218.png)
+*Mode démonstration avec comptes de test disponibles pour tous les rôles*
+
+#### **Interface de Connexion**
 ![Login Screen](screenshots/Screenshot%202025-11-15%20150227.png)
-- Interface de connexion moderne avec authentification sécurisée
-- Mode démonstration avec comptes de test pré-configurés
+*Interface de connexion moderne avec authentification sécurisée*
 
-### 🏠 **Tableau de Bord Administrateur**
+---
+
+### 🏠 **2. Tableau de Bord Administrateur**
 ![Admin Dashboard](screenshots/Screenshot%202025-11-15%20150235.png)
-- Vue d'ensemble du système avec statistiques en temps réel
-- Gestion des utilisateurs, étudiants et enseignants
-- Indicateurs de performance et logs d'activité
+- **Statistiques en temps réel** : 7 utilisateurs totaux, 5 étudiants actifs, 5 enseignants
+- **Performance système** : 100% état système
+- **Activité récente** : Logs de connexions et inscriptions
+- **Cartes statistiques colorées** : Vue d'ensemble des données importantes
 
-### 👨‍🏫 **Interface Enseignant**
-![Teacher Interface](screenshots/Screenshot%202025-11-15%20150345.png)
-- Gestion des épreuves et saisie de notes
-- Consultation des matières enseignées
-- Statistiques détaillées par épreuve et matière
+---
 
-### 🎓 **Interface Étudiant**
+### 👨‍🏫 **3. Interface Enseignant - Complète**
+
+#### **Tableau de Bord Enseignant**
+![Teacher Dashboard](screenshots/Screenshot%202025-11-15%20150345.png)
+*Professeur BENALI Ahmed - Vue d'ensemble des épreuves et matières*
+
+#### **Gestion des Épreuves**
+![Exam Management](screenshots/Screenshot%202025-11-15%20150351.png)
+*Interface pour créer et gérer les épreuves avec colonnes Type, Intitulé, Matière, Date, Coefficient*
+
+#### **Consultation des Résultats**
+![Results View](screenshots/Screenshot%202025-11-15%20150404.png)
+*Statistiques détaillées par épreuve avec moyennes, taux de réussite et export Excel*
+
+---
+
+### 🎓 **4. Interface Étudiant - Complète**
+
+#### **Tableau de Bord Étudiant**
 ![Student Dashboard](screenshots/Screenshot%202025-11-15%20150426.png)
-- Consultation des informations personnelles
-- Vue d'ensemble des notes et moyennes
-- Suivi du statut académique en temps réel
+*BOUZIDI Sara - Vue d'ensemble avec moyenne générale 0.00/20, statut "En cours"*
 
-### 📊 **Consultation des Notes**
+#### **Consultation des Notes**
 ![Grades View](screenshots/Screenshot%202025-11-15%20150430.png)
-- Tableau détaillé des notes par épreuve
-- Affichage des coefficients et dates d'évaluation
-- Interface claire et intuitive
+*Tableau détaillé des notes par épreuve avec matière, type d'épreuve, note, coefficient, date et enseignant*
 
-### 📄 **Génération de Bulletins PDF**
-![PDF Bulletin](screenshots/Screenshot%202025-11-15%20150507.png)
-- Bulletins de notes officiels générés automatiquement
-- Format professionnel avec en-têtes universitaires
-- Téléchargement direct au format PDF
+#### **Informations Personnelles**
+![Personal Info](screenshots/Screenshot%202025-11-15%20150435.png)
+*Détails complets de l'étudiant : nom, date de naissance, origine scolaire, email, téléphone, date d'inscription*
+
+---
+
+### 📄 **5. Génération de Bulletins PDF**
+
+#### **Interface de Génération**
+![PDF Generation](screenshots/Screenshot%202025-11-15%20150439.png)
+*Bouton "Générer mon bulletin" avec interface utilisateur intuitive*
+
+#### **Dialogue de Sauvegarde**
+![Save Dialog](screenshots/Screenshot%202025-11-15%20150446.png)
+*Sélection de l'emplacement de sauvegarde pour le bulletin PDF*
+
+#### **Confirmation de Génération**
+![Generation Success](screenshots/Screenshot%202025-11-15%20150453.png)
+*Message de succès avec chemin du fichier généré*
+
+#### **Confirmation d'Ouverture**
+![Open Confirmation](screenshots/Screenshot%202025-11-15%20150459.png)
+*Dialogue pour ouvrir automatiquement le bulletin généré*
+
+#### **Bulletin PDF Généré**
+![PDF Document 1](screenshots/Screenshot%202025-11-15%20150507.png)
+![PDF Document 2](screenshots/Screenshot%202025-11-15%20150514.png)
+*Bulletin officiel avec en-tête universitaire, informations étudiant et détail des notes*
+
+---
+
+### 🏢 **6. Interface Scolarité - Complète**
+
+#### **Tableau de Bord Scolarité**
+![Scolarite Dashboard](screenshots/Screenshot%202025-11-15%20150538.png)
+*Interface avec 4 modules : Nouvel Étudiant, Nouvelle Inscription, Rechercher, Statistiques*
+
+#### **Gestion des Étudiants**
+![Student Management](screenshots/Screenshot%202025-11-15%20150544.png)
+*Tableau de gestion avec colonnes Nom, Prénom, Origine, Email, Programme, Actions + bouton "Nouvel Étudiant"*
+
+#### **Gestion des Inscriptions**
+![Registration Management](screenshots/Screenshot%202025-11-15%20150549.png)
+*Module dédié à la gestion des inscriptions étudiantes*
+
+---
+
+### 🎯 **7. Interface Direction - Complète**
+
+#### **Vue d'Ensemble Direction**
+![Direction Overview](screenshots/Screenshot%202025-11-15%20150609.png)
+*Statistiques : 12 Programmes, 45 Matières, 520 Étudiants, 78% Taux de Réussite*
+
+#### **Gestion des Programmes**
+![Program Management](screenshots/Screenshot%202025-11-15%20150617.png)
+*Table détaillée : ING1_TC (150 étudiants), ING2_GI (85 étudiants), ISIN (45 étudiants)*
+
+#### **Gestion des Matières**
+![Subject Management](screenshots/Screenshot%202025-11-15%20150620.png)
+*Interface pour gérer les matières avec colonnes Nom, Objectif, Semestre, Programmes, Actions*
+
+#### **Module de Validation**
+![Validation Module](screenshots/Screenshot%202025-11-15%20150625.png)
+*Interface de validation des moyennes et statuts avec filtres par programme et année*
+
+#### **Statistiques Avancées**
+![Advanced Statistics](screenshots/Screenshot%202025-11-15%20150630.png)
+*Graphiques de taux de réussite par programme et évolution des effectifs (avec JFreeChart)*
 
 ---
 
 ## 🚀 Technologies Utilisées
 
 ### **Backend**
-- **Java 23** - Language de programmation
+- **Java 23** - Langage de programmation
 - **MySQL 8.0** - Système de gestion de base de données
 - **HikariCP** - Pool de connexions haute performance
 - **BCrypt** - Chiffrement sécurisé des mots de passe
@@ -121,9 +202,9 @@ Ce projet implémente un système complet de gestion scolaire avec une interface
 ### **Bibliothèques**
 - **iText PDF** - Génération de bulletins PDF
 - **Apache POI** - Export Excel des statistiques
+- **JFreeChart** - Génération de graphiques
 - **Jackson** - Traitement JSON pour la configuration
 - **Logback** - Système de journalisation avancé
-- **Apache Commons Lang** - Utilitaires et outils
 
 ### **Outils de Développement**
 - **Maven 3.8+** - Gestionnaire de dépendances
@@ -242,67 +323,94 @@ src/main/java/
 
 ## 📊 Fonctionnalités Principales
 
-### **✅ Gestion des Utilisateurs**
-- Authentification sécurisée avec BCrypt
-- Gestion des rôles et permissions
-- Sessions utilisateur avec timeout automatique
-- Logs d'activité et audit trail
-
-### **✅ Gestion Académique**
-- Création et gestion des programmes d'études
-- Inscription et suivi des étudiants
-- Planification des épreuves et examens
-- Calcul automatique des moyennes pondérées
-
-### **✅ Saisie et Consultation des Notes**
-- Interface intuitive pour la saisie des notes
-- Validation automatique des données
-- Consultation en temps réel des résultats
-- Historique complet des modifications
-
-### **✅ Rapports et Statistiques**
-- Bulletins de notes officiels (PDF)
-- Export des données vers Excel
-- Statistiques de réussite par matière
-- Tableaux de bord avec KPI
-
-### **✅ Interface Moderne**
-- Design moderne et responsive
-- Navigation intuitive par onglets
-- Notifications toast pour le feedback
-- Composants UI personnalisés
-
----
-
-## 🛠️ Améliorations Techniques Apportées
-
-### **✅ Résolution de 100+ Erreurs de Compilation**
-- Compatibilité Java 23 assurée
-- Résolution des conflits d'imports
-- Correction des signatures de méthodes
-- Amélioration de la gestion des exceptions
-
-### **✅ Architecture Améliorée**
-- Séparation claire MVC (Model-View-Controller)
-- Services métier structurés
-- Couche DAO optimisée
-- Gestion centralisée des configurations
-
-### **✅ Performance et Sécurité**
-- Pool de connexions HikariCP
+### **✅ Système Complet d'Authentification**
+- 5 types d'utilisateurs avec permissions spécifiques
+- Sessions sécurisées avec timeout automatique
 - Chiffrement BCrypt des mots de passe
-- Validation des entrées utilisateur
-- Gestion optimisée de la mémoire
+- Mode démonstration avec comptes de test
+
+### **✅ Gestion Académique Complète**
+- **Programmes** : ING1_TC (150 étudiants), ING2_GI (85 étudiants), ISIN (45 étudiants)
+- **Matières** : 45 matières avec objectifs et semestres
+- **Épreuves** : Contrôles, examens, projets, TP
+- **Calculs automatiques** : Moyennes pondérées et statuts
+
+### **✅ Interface Moderne et Intuitive**
+- Design moderne avec cartes statistiques colorées
+- Navigation par onglets pour chaque module
+- Tableaux interactifs avec fonctions de tri et recherche
+- Notifications toast et dialogues de confirmation
+
+### **✅ Génération de Rapports**
+- **Bulletins PDF** : Format officiel avec en-tête universitaire
+- **Export Excel** : Statistiques détaillées pour les enseignants
+- **Graphiques** : Taux de réussite et évolution des effectifs
+- **Statistiques temps réel** : 78% taux de réussite global
+
+### **✅ Gestion des Notes et Évaluations**
+- Saisie intuitive des notes par les enseignants
+- Consultation en temps réel par les étudiants
+- Historique complet des modifications
+- Validation automatique des données
 
 ---
 
-## 📈 Statistiques du Projet
+## 📈 Statistiques du Système
 
+### **Données Actuelles (Mode Démonstration)**
+- **👥 Utilisateurs** : 7 comptes totaux
+- **🎓 Étudiants** : 520 étudiants actifs
+- **👨‍🏫 Enseignants** : 5 enseignants
+- **📚 Programmes** : 12 programmes d'études
+- **📖 Matières** : 45 matières enseignées
+- **📊 Taux de Réussite** : 78% (moyenne générale)
+
+### **Performance Technique**
 - **📁 Fichiers Source** : 68 classes Java
 - **📊 Lignes de Code** : 8,500+ lignes
 - **⚡ Temps de Compilation** : ~4.5 secondes
 - **🚀 Démarrage Application** : ~384ms
 - **🔧 Erreurs Corrigées** : 100+ erreurs → 0 erreur
+
+---
+
+## 🛠️ Améliorations Techniques Apportées
+
+### **✅ Résolution Complète des Erreurs**
+- Compatibilité Java 23 assurée
+- Résolution des conflits d'imports
+- Correction des signatures de méthodes
+- Amélioration de la gestion des exceptions
+
+### **✅ Architecture Robuste**
+- Séparation claire MVC (Model-View-Controller)
+- Services métier structurés
+- Couche DAO optimisée avec HikariCP
+- Gestion centralisée des configurations
+
+### **✅ Interface Utilisateur Moderne**
+- Composants UI personnalisés et réutilisables
+- Cartes statistiques avec couleurs distinctives
+- Navigation intuitive par onglets
+- Dialogues de confirmation et notifications
+
+---
+
+## 🎓 Données Académiques (Exemples Réels)
+
+### **Programmes d'Études**
+| Code | Programme | Année | Étudiants | Matières | Taux Réussite |
+|------|-----------|--------|-----------|----------|---------------|
+| ING1_TC | Ingénieur 1ère année - TC | 1 | 150 | 8 | 80% |
+| ING2_GI | Ingénieur 2ème année - GI | 2 | 85 | 6 | 82% |
+| ISIN | Ing. Systèmes Info et Réseaux | 3 | 45 | 10 | 84% |
+
+### **Exemple Étudiant**
+- **Nom** : BOUZIDI Sara
+- **Programme** : ING2 - Génie Informatique
+- **Origine** : DUT
+- **Statut** : En cours d'évaluation
+- **Épreuves** : 12 épreuves programmées
 
 ---
 
